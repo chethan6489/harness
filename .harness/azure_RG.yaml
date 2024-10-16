@@ -1,0 +1,5 @@
+service:
+  name: azure RG
+  identifier: azure_RG
+  orgIdentifier: default
+  projectIdentifier: default_project
