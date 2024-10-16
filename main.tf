@@ -19,7 +19,11 @@ terraform {
 
 # Provider Block
 provider "azurerm" {
- features {}          
+  subscription_id = "ce9ae6de-058b-4cf9-ac15-d9a6211f2493"
+  features {
+    
+  }
+  
 }
 
 resource "azurerm_resource_group" "wells" {
